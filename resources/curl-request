@@ -1,0 +1,5 @@
+curl --location 'https://public-uri' \
+--form 'file=@"/path/to/real/file/Goku.jpg"' \
+--form 'type="resize"' \
+--form 'width="800"' \
+--form 'height="600"'

@@ -1,0 +1,32 @@
+# utilities used
+/python-pubsub
+# java traget folder
+**/target
+
+/.metadata/
+notes
+
+# Ignore all node_modules in any nested project
+**/node_modules/
+
+# Ignore all build outputs in any project
+**/lib/
+**/dist/
+**/build/
+
+# Firebase config and debug files (ignore in all projects)
+**/.firebaserc
+**/.runtimeconfig.json
+**/firebase-debug.log
+
+# Ignore Firebase Admin SDK keys in any project
+**/firebase-adminsdk-*.json
+
+# Ignore Firestore emulator data across all projects
+**/firestore_export/
+
+# Ignore all environment variables in any project
+**/.env
+
+# Ignore local Firebase configuration and settings
+**/.firebase/

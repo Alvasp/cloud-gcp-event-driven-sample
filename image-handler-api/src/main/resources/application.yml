@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: unset
+  servlet:
+     multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 5MB			
+  cloud:
+   gcp:
+    pubsub:
+     project-id: event-driven-sample-project
+     #emulator-host: ${APP_PUBSUB_EMULATOR_HOST:null}
+app:
+  pubsub:
+    request-topic: ${APP_PUBSUB_REQUEST_TOPIC}
+    reply-subscription: ${APP_PUBSUB_RESPONSE_SUBSCRIPTION}
+    errors-subscription: ${APP_PUBSUB_ERRORS_SUBSCRIPTION}
+server:
+ port: ${PORT:8080}

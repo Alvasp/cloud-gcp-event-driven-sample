@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: unset
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+logging:
+  level:
+    org: ERROR
+
+app:
+  localrepository: ${APP_LOCALREPOSITORY}

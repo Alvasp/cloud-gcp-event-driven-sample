@@ -1,0 +1,9 @@
+{
+    "jobUUID": "341a44ed-dd6a-43ff-99df-6ffff36e5da9",
+    "jobType": "resize",
+    "filename": "v1003-71c.jpg",
+    "resolution": {
+        "width": 800,
+        "height": 600
+    }
+}
